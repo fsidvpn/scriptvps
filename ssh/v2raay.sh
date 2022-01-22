@@ -21,16 +21,16 @@ read -p "     Please Input Number  [1-4 or x] :  "  v2ray
 echo -e ""
 case $v2ray in
 1)
-addv2ray
+addvmess
 ;;
 2)
-delv2ray
+delvmess
 ;;
 3)
-renewv2ray
+renewvmess
 ;;
 4)
-cekv2ray
+cekvmess
 ;;
 x)
 menu
