@@ -62,8 +62,8 @@ exit 0
 fi
 cd
 apt install figlet -y
-apt install gem lolcat -y
-apt install lolcat -y
+sudo apt-get install ruby
+sudo gem install lolcat
 clear
 mkdir /var/lib/akbarstorevpn;
 echo "IP=" >> /var/lib/akbarstorevpn/ipvps.conf
@@ -116,7 +116,7 @@ chmod +x /etc/set.sh
 history -c
 echo "1.2" > /home/ver
 echo " "
-echo "Installation has been completed!!"
+echo " Installation has been completed!!"
 echo " "
 echo "=================================-AutoScript By FsidVPN Project-===========================" | tee -a log-install.txt
 echo "" | tee -a log-install.txt
