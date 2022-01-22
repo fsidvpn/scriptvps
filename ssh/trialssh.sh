@@ -41,8 +41,8 @@ Login=Trial`</dev/urandom tr -dc X-Z0-9 | head -c4`
 hari="1"
 Pass=1
 clear
-systemctl restart ws-tls
-systemctl restart ws-nontls
+systemctl restart ws-ovpn
+systemctl restart websocket
 systemctl restart ssh-ohp
 systemctl restart dropbear-ohp
 systemctl restart openvpn-ohp
