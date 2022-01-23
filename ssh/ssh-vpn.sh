@@ -354,6 +354,7 @@ wget -O about "https://${akbarvpn}/about.sh"
 wget -O menu "https://${akbarvpn}/menu.sh"
 wget -O ssh "https://${akbarvpn}/ssh.sh"
 wget -O wgr "https://${akbarvpn}/wgr.sh"
+wget -O running "https://${akbarvpn}/running.sh"
 wget -O l2tp "https://${akbarvpn}/l2tp.sh"
 wget -O v2raay "https://${akbarvpn}/v2raay.sh"
 wget -O vleess "https://${akbarvpn}/vleess.sh"
@@ -407,6 +408,7 @@ chmod +x addhost
 chmod +x menu
 chmod +x ssh
 chmod +x wgr
+chmod +x running
 chmod +x l2tp
 chmod +x v2raay
 chmod +x vleess
@@ -443,9 +445,10 @@ chmod +x swapkvm
 chmod +x addvmess
 chmod +x addvless
 chmod +x addtrojan
-chmod +x delv2ray
+chmod +x pointingbug
 chmod +x delvless
 chmod +x deltrojan
+chmod +x delvmess
 chmod +x cekvmess
 chmod +x cekvless
 chmod +x cektrojan
