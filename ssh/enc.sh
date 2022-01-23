@@ -144,6 +144,7 @@ mv renewtrojan.x renewtrojan
 mv renewtrgo.x renewtrgo
 mv renewvless.x renewvless
 mv renewwgr.x renewwgr
+mv menu.x menu
 mv renewvmess.x renewvmess
 mv restart.x restart
 mv restore.x restore
