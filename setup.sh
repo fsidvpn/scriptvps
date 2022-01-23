@@ -62,7 +62,7 @@ exit 0
 fi
 cd
 apt install figlet -y
-sudo apt-get install ruby
+sudo apt-get install ruby -y
 sudo gem install lolcat
 clear
 mkdir /var/lib/akbarstorevpn;
