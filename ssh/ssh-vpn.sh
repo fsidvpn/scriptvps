@@ -361,7 +361,7 @@ wget -O l2tp "https://${akbarvpn}/l2tp.sh"
 wget -O v2raay "https://${akbarvpn}/v2raay.sh"
 wget -O vleess "https://${akbarvpn}/vleess.sh"
 wget -O trojaan "https://${akbarvpn}/trojaan.sh"
-wget -O sstp "https://${akbarvpn}/sstp.sh"
+wget -O sstp "https://${akbarvpn}/sstpp.sh"
 wget -O ssssr "https://${akbarvpn}/ssssr.sh"
 wget -O bannerku "https://${akbarvpn}/bannerku"
 wget -O addssh "https://${akbarvpn}/addssh.sh"
@@ -415,7 +415,7 @@ chmod +x l2tp
 chmod +x v2raay
 chmod +x vleess
 chmod +x trojaan
-chmod +x sstp
+chmod +x sstpp
 chmod +x ssssr
 chmod +x bannerku
 chmod +x addssh
