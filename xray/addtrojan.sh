@@ -62,6 +62,6 @@ echo -e "Key      : ${user}"
 echo -e "Created  : $hariini"
 echo -e "Expired  : $exp"
 echo -e "=========================="
-echo -e "Link TR  : ${trojanlink}"
+echo -e "Link TR  : ${trojanlink}" | lolcat
 echo -e "=========================="
 echo -e "AutoScript By FsidVPN"
