@@ -367,6 +367,7 @@ wget -O bannerku "https://${akbarvpn}/bannerku"
 wget -O addssh "https://${akbarvpn}/addssh.sh"
 wget -O trialssh "https://${akbarvpn}/trialssh.sh"
 wget -O delssh "https://${akbarvpn}/delssh.sh"
+wget -O bbr "https://${akbarvpn}/bbr.sh"
 wget -O member "https://${akbarvpn}/member.sh"
 wget -O delexp "https://${akbarvpn}/delexp.sh"
 wget -O cekssh "https://${akbarvpn}/cekssh.sh"
@@ -447,7 +448,7 @@ chmod +x swapkvm
 chmod +x addvmess
 chmod +x addvless
 chmod +x addtrojan
-chmod +x pointing
+chmod +x bbr
 chmod +x delvless
 chmod +x deltrojan
 chmod +x delvmess
