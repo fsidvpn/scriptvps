@@ -43,14 +43,15 @@ echo -e   "  \e[1;32m===========================================================
 echo -e   "   9\e[1;33m)\e[m   Add Subdomain Host For VPS"
 echo -e   "   10\e[1;33m)\e[m  Renew Certificate V2RAY"
 echo -e   "   11\e[1;33m)\e[m  Change Port All Account"
-echo -e   "   12\e[1;33m)\e[m  Webmin Menu"
-echo -e   "   13\e[1;33m)\e[m  Limit Bandwith Speed Server"
-echo -e   "   14\e[1;33m)\e[m  Check Usage of VPS Ram" 
-echo -e   "   15\e[1;33m)\e[m  Reboot VPS"
-echo -e   "   16\e[1;33m)\e[m  Speedtest VPS"
-echo -e   "   17\e[1;33m)\e[m  Information Display System" 
-echo -e   "   18\e[1;33m)\e[m  Info Script Auto Install"
-echo -e   "   19\e[1;33m)\e[m  Install BBR"
+echo -e   "   12\e[1;33m)\e[m  Cek Status Layanan"
+echo -e   "   13\e[1;33m)\e[m  Webmin Menu"
+echo -e   "   14\e[1;33m)\e[m  Limit Bandwith Speed Server"
+echo -e   "   15\e[1;33m)\e[m  Check Usage of VPS Ram" 
+echo -e   "   16\e[1;33m)\e[m  Reboot VPS"
+echo -e   "   17\e[1;33m)\e[m  Speedtest VPS"
+echo -e   "   18\e[1;33m)\e[m  Information Display System" 
+echo -e   "   19\e[1;33m)\e[m  Info Script Auto Install"
+echo -e   "   20\e[1;33m)\e[m  Install BBR"
 echo -e   "  \e[1;32m============================================================"| lolcat
 echo -e   "   x)   Exit" | lolcat
 echo -e   "  \e[1;32m============================================================"| lolcat
@@ -92,27 +93,29 @@ certv2ray
 changeport
 ;;
 12)
-wbmn
+running
 ;;
 13)
-limitspeed
 ;;
 14)
-ram
+limitspeed
 ;;
 15)
-reboot
+ram
 ;;
 16)
-speedtest
+reboot
 ;;
 17)
-info
+speedtest
 ;;
 18)
-about
+info
 ;;
 19)
+about
+;;
+20)
 bbr
 ;;
 x)
