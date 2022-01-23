@@ -104,8 +104,8 @@ echo -e "Path        : /vmess/"
 echo -e "Created     : $hariini"
 echo -e "Expired     : $exp"
 echo -e "========================="
-echo -e "Link TLS    : ${xrayv2ray1}"
+echo -e "Link TLS    : ${xrayv2ray1}" | lolcat
 echo -e "========================="
-echo -e "Link No TLS : ${xrayv2ray2}"
+echo -e "Link No TLS : ${xrayv2ray2}" | lolcat
 echo -e "========================="
 echo -e "AutoScript By FsidVPN"
