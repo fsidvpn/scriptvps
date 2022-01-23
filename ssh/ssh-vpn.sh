@@ -50,10 +50,10 @@ ver=$VERSION_ID
 country=ID
 state=Indonesia
 locality=Indonesia
-organization=akbarstorevpn
-organizationalunit=akbarstorevpn
-commonname=akbarstorevpn
-email=akbarssh21@gmail.com
+organization=fsidvpn
+organizationalunit=fsidvpn
+commonname=fsidvpn
+email=admin@fsind.site
 
 # simple password minimal
 wget -O /etc/pam.d/common-password "https://${akbarvpn}/password"
@@ -109,6 +109,8 @@ apt -y install wget curl
 
 # Install Requirements Tools
 apt install ruby -y
+apt install figlet -y
+sudo gem install lolcat
 apt install python -y
 apt install make -y
 apt install cmake -y
@@ -445,7 +447,7 @@ chmod +x swapkvm
 chmod +x addvmess
 chmod +x addvless
 chmod +x addtrojan
-chmod +x pointingbug
+chmod +x pointing
 chmod +x delvless
 chmod +x deltrojan
 chmod +x delvmess
