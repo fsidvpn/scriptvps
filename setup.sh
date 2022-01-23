@@ -113,7 +113,7 @@ echo "1.2" > /home/ver
 echo " "
 echo "Installation has been completed!!"
 echo " "
-echo "=================================-Akbar Maulana Project-===========================" | tee -a log-install.txt
+echo "=================================-FSID VPN Project-===========================" | tee -a log-install.txt
 echo "" | tee -a log-install.txt
 echo "----------------------------------------------------------------------------" | tee -a log-install.txt
 echo ""  | tee -a log-install.txt
@@ -166,7 +166,7 @@ echo "   - Telegram                : T.me"  | tee -a log-install.txt
 echo "   - Instagram               : ~"  | tee -a log-install.txt
 echo "   - Whatsapp                : 088228877739"  | tee -a log-install.txt
 echo "   - Facebook                : https://m.facebook.com/lis.tio.718" | tee -a log-install.txt
-echo "----------------------Script Created By Akbar Maulana Project----------------------" | tee -a log-install.txt
+echo "----------------------Script Created By FSID VPN Project----------------------" | tee -a log-install.txt
 echo ""
 echo " Reboot 15 Sec"
 sleep 15
