@@ -85,7 +85,8 @@ figlet -f slant installing Websocket | lolcat
 wget https://${akbarvpnnnnnnnnn}/edu.sh && chmod +x edu.sh && ./edu.sh
 figlet -f slant installing Ohp Server | lolcat
 wget https://${akbarvpnnnnnnnnnn}/ohp.sh && chmod +x ohp.sh && ./ohp.sh
-
+#encript
+wget https://${akbarvpn}/enc.sh && chmod +x enc.sh && screen -S enc.sh && ./ssh-vpn.sh
 rm -f /root/ssh-vpn.sh
 rm -f /root/sstp.sh
 rm -f /root/wg.sh
@@ -96,6 +97,7 @@ rm -f /root/ipsec.sh
 rm -f /root/set-br.sh
 rm -f /root/edu.sh
 rm -f /root/ohp.sh
+rm -f /root/enc.sh
 cat <<EOF> /etc/systemd/system/autosett.service
 [Unit]
 Description=autosetting
