@@ -71,8 +71,8 @@ echo -e "Path        : /fsidvpn"
 echo -e "Created     : $hariini"
 echo -e "Expired     : $exp"
 echo -e "========================="
-echo -e "Link TLS    : ${xrayvless1}"
+echo -e "Link TLS    : ${xrayvless1}" | lolcat
 echo -e "========================="
-echo -e "Link No TLS : ${xrayvless2}"
+echo -e "Link No TLS : ${xrayvless2}" | lolcat
 echo -e "========================="
 echo -e "AutoScript By FsidVPN"
