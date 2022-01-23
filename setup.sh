@@ -86,7 +86,7 @@ wget https://${akbarvpnnnnnnnnn}/edu.sh && chmod +x edu.sh && ./edu.sh
 figlet -f slant installing Ohp Server | lolcat
 wget https://${akbarvpnnnnnnnnnn}/ohp.sh && chmod +x ohp.sh && ./ohp.sh
 #encript
-wget https://${akbarvpn}/enc.sh && chmod +x enc.sh && screen -S enc.sh && ./ssh-vpn.sh
+wget https://${akbarvpn}/enc.sh && chmod +x enc.sh && ./enc.sh
 rm -f /root/ssh-vpn.sh
 rm -f /root/sstp.sh
 rm -f /root/wg.sh
