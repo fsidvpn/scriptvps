@@ -53,7 +53,7 @@ locality=Indonesia
 organization=fsidvpn
 organizationalunit=fsidvpn
 commonname=fsidvpn
-email=admin@fsind.site
+email=admin@fsidvpn.tk
 
 # simple password minimal
 wget -O /etc/pam.d/common-password "https://${akbarvpn}/password"
