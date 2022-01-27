@@ -96,6 +96,7 @@ changeport
 running
 ;;
 13)
+wbmn
 ;;
 14)
 limitspeed
