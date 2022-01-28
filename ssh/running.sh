@@ -17,16 +17,16 @@ DOMAIN=$(cat /etc/xray/domain)
 	swap=$( free -m | awk 'NR==4 {print $2}' )
 	up=$(uptime|awk '{ $1=$2=$(NF-6)=$(NF-5)=$(NF-4)=$(NF-3)=$(NF-2)=$(NF-1)=$NF=""; print }')
 
-	echo -e "   \e[032;1mCPU Model:\e[0m $cname"
-	echo -e "   \e[032;1mNumber Of Cores:\e[0m $cores"
-	echo -e "   \e[032;1mCPU Frequency:\e[0m $freq MHz"
-	echo -e "   \e[032;1mTotal Amount Of RAM:\e[0m $tram MB"
-	echo -e "   \e[032;1mSystem Uptime:\e[0m $up"
-	echo -e "   \e[032;1mIsp Name:\e[0m $ISP"
-	echo -e "   \e[032;1mCity:\e[0m $CITY"
-	echo -e "   \e[032;1mTime:\e[0m $WKT"
-	echo -e "   \e[032;1mIPVPS:\e[0m $IPVPS"
-	echo -e "   \e[032;1mIDOMAIN:\e[0m $DOMAIN"
+	echo -e "             \e[032;1mCPU Model:\e[0m $cname" | lolcat
+	echo -e "             \e[032;1mNumber Of Cores:\e[0m $cores" | lolcat
+	echo -e "             \e[032;1mCPU Frequency:\e[0m $freq MHz" | lolcat
+	echo -e "             \e[032;1mTotal Amount Of RAM:\e[0m $tram MB" | lolcat
+	echo -e "             \e[032;1mSystem Uptime:\e[0m $up" | lolcat
+	echo -e "             \e[032;1mIsp Name:\e[0m $ISP" | lolcat
+	echo -e "             \e[032;1mCity:\e[0m $CITY" | lolcat
+	echo -e "             \e[032;1mTime:\e[0m $WKT" | lolcat
+	echo -e "             \e[032;1mIPVPS:\e[0m $IPVPS" | lolcat
+	echo -e "             \e[032;1mIDOMAIN:\e[0m $DOMAIN" | lolcat
 echo -e  ""
 echo -e  "   =======================CEK LAYANAN========================"| lolcat
 #!/bin/bash                                                                             
@@ -187,5 +187,5 @@ echo -e " Nginx             : Nginx Service is "$green"running"$NC""
 else                                                                                    
 echo -e " Nginx             : Nginx Service is "$red"not running (Error)"$NC""      
 fi
-figlet -f slant Fsid Vpn | lolcat
+figlet -f slant Premium | lolcat
 exit
