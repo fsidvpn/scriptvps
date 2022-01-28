@@ -75,4 +75,4 @@ echo -e "Link TLS    : ${xrayvless1}" | lolcat
 echo -e "========================="
 echo -e "Link No TLS : ${xrayvless2}" | lolcat
 echo -e "========================="
-echo -e "AutoScript By FsidVPN"
+echo -e "AutoScript By @FER1DEV" | lolcat
