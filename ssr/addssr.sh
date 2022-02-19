@@ -87,4 +87,4 @@ echo -e "Expired     : ${exp} "
 echo -e "=========================="
 echo -e "Link SSR    : ${ssr_link}"
 echo -e "=========================="
-echo -e "AutoScript By FsidVPN"
+echo -e "Enjoy Our Auto Script Service" | lolcat
