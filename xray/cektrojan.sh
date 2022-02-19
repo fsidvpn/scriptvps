@@ -64,5 +64,5 @@ oth=$(cat /tmp/other.txt | sort | uniq | nl)
 echo "other";
 echo "$oth";
 echo "-----------------------------------------"
-echo "AutoScript By FsidVPN"
+echo "Enjoy Our Auto Script Service" | lolcat
 rm -rf /tmp/other.txt
