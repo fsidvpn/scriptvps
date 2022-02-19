@@ -61,4 +61,4 @@ echo "==============================="
 echo "Username  : $user"
 echo "Expired   : $exp"
 echo "==============================="
-echo "AutoScript By FsidVPN"
+echo "Enjoy Our Auto Script Service" | lolcat
