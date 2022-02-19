@@ -67,5 +67,5 @@ Cert      : http://$IP:89/server.crt
 Created   : $hariini
 Expired   : $exp
 ============================
-AutoScript By FsidVPN
+Enjoy Our Auto Script Service | lolcat
 EOF
