@@ -87,6 +87,6 @@ echo "----------------------------------------------";
         cat /tmp/vpn-login-udp.txt
 fi
 echo "----------------------------------------------";
-echo "AutoScript By FsidVPN"
+echo "Enjoy Our Auto Script Service" | lolcat
 echo "";
 
