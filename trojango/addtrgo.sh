@@ -66,4 +66,4 @@ echo -e "Expired    : $exp"
 echo -e "========================="
 echo -e "Link TrGo  : ${link}"
 echo -e "========================="
-echo -e "AutoScript By FsidVPN"
+echo -e "Enjoy Our Auto Script Service" | lolcat
