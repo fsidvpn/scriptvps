@@ -72,5 +72,5 @@ Password  : $VPN_PASSWORD
 Created   : $hariini
 Expired   : $exp
 ============================
-AutoScript By FsidVPN
+Enjoy Our Auto Script Service" | lolcat
 EOF
