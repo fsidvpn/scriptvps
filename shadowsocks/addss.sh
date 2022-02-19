@@ -122,4 +122,4 @@ echo -e "Link TLS    : $linkss1"
 echo -e "========================="
 echo -e "Link No TLS : $linkss2"
 echo -e "========================="
-echo -e "AutoScript By FsidVPN"
+echo -e "Enjoy Our Auto Script Service" | lolcat
