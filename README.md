@@ -46,7 +46,7 @@
 
 • OpenVPN                 : TCP 1194, UDP 2200, SSL 990
 
-• Stunnel5                : 443, 445, 777
+• Stunnel4                : 443, 445, 777
 
 • Dropbear                : 443, 109, 143
 
