@@ -33,7 +33,7 @@ echo -e  "   =======================CEK LAYANAN========================"| lolcat
 red="\e[1;31m"                                                                          
 green="\e[0;32m"                                                                        
 NC="\e[0m"                                                                              
-figlet -f slant CEK STATUS LAYANAN | lolcat
+
        echo -e ""
 status="$(systemctl show ssh.service --no-page)"                                   
 status_text=$(echo "${status}" | grep 'ActiveState=' | cut -f2 -d=)                     
@@ -187,5 +187,5 @@ echo -e " Nginx             : Nginx Service is "$green"running"$NC""
 else                                                                                    
 echo -e " Nginx             : Nginx Service is "$red"not running (Error)"$NC""      
 fi
-figlet -f slant Premium | lolcat
+
 exit
