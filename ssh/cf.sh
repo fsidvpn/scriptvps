@@ -27,9 +27,9 @@ exit 0
 fi
 clear
 apt install jq curl -y
-DOMAIN=fsind.site
+DOMAIN=myautoscript.me
 sub=$(</dev/urandom tr -dc a-z0-9 | head -c4)
-SUB_DOMAIN=${sub}.fsind.site
+SUB_DOMAIN=${sub}.myautoscript.me
 CF_ID=awaledyan@gmail.com
 CF_KEY=7c9a592ee3186932780cffb3f1b6dbfee8084
 set -euo pipefail
