@@ -389,8 +389,10 @@ netfilter-persistent reload
 # download script
 cd /usr/bin
 wget -O addhost "https://${akbarvpn}/addhost.sh"
+
+wget -O running "https://${akbarvpn}/running.sh
 wget -O about "https://${akbarvpn}/about.sh"
-wget -O menu "https://raw.githubusercontent.com/fsidvpn/scriptvps/main/ssh/menu.sh"
+wget -O menu "https://raw.githubusercontent.com/fsidvpn/vps/main/update/menu.sh"
 wget -O ssh "https://${akbarvpn}/ssh.sh"
 wget -O wgr "https://${akbarvpn}/wgr.sh"
 wget -O l2tp "https://${akbarvpn}/l2tp.sh"
@@ -443,6 +445,7 @@ wget -O deltrgo "https://${akbarvpnnn}/deltrgo.sh"
 wget -O renewtrgo "https://${akbarvpnnn}/renewtrgo.sh"
 wget -O cektrgo "https://${akbarvpnnn}/cektrgo.sh"
 chmod +x addhost
+chmod +x running
 chmod +x menu
 chmod +x ssh
 chmod +x wgr
@@ -517,7 +520,7 @@ chown -R www-data:www-data /home/vps/public_html
 /etc/init.d/dropbear restart
 /etc/init.d/fail2ban restart
 /etc/init.d/sslh restart
-/etc/init.d/stunnel4 restart
+/etc/init.d/stunnel5 restart
 /etc/init.d/vnstat restart
 /etc/init.d/fail2ban restart
 /etc/init.d/squid restart
