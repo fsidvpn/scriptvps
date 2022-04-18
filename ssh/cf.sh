@@ -31,7 +31,7 @@ DOMAIN=myautoscript.me
 sub=$(</dev/urandom tr -dc a-z0-9 | head -c4)
 SUB_DOMAIN=${sub}.myautoscript.me
 CF_ID=awaledyan@gmail.com
-CF_KEY=7c9a592ee3186932780cffb3f1b6dbfee8084
+CF_KEY=9bac6a7ab5cf4328cfd693435d2c145dc9f76
 set -euo pipefail
 IP=$(wget -qO- ipinfo.io/ip);
 echo "Updating DNS for ${SUB_DOMAIN}..."
